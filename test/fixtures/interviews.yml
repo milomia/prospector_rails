@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company_name: MyString
+  date: 2019-12-05 14:27:03
+  stage: 1
+  method: MyString
+  verdict: MyString
+
+two:
+  company_name: MyString
+  date: 2019-12-05 14:27:03
+  stage: 1
+  method: MyString
+  verdict: MyString
