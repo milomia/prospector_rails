@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= form.label :company_name %>
-    <%= form.text_field :company_name %>
+    <%= form.text_field :company_name, :maxlength =>50 %>
   </div>
 
   <div class="field">
@@ -28,12 +28,17 @@
 
   <div class="field">
     <%= form.label :method %>
-    <%= form.text_field :method %>
+    <%= form.text_field :method, :maxlength=>100 %>
   </div>
 
   <div class="field">
     <%= form.label :verdict %>
-    <%= form.text_field :verdict %>
+    <%= form.text_field :verdict, :maxlength=>100 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :contact %>
+    <%= form.text_field :contact, :maxlength=>100 %>
   </div>
 
   <div class="actions">

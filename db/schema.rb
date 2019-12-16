@@ -19,8 +19,9 @@ ActiveRecord::Schema.define(version: 2019_12_05_142703) do
     t.string "company_name"
     t.datetime "date"
     t.integer "stage"
-    t.string "method"
-    t.string "verdict"
+    t.string "method", limit: 100
+    t.string "verdict", limit: 100
+    t.string "contact", limit: 100
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
