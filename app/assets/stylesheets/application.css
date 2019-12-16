@@ -13,3 +13,5 @@
  *= require_tree .
  *= require_self
  */
+background-image: url(interviews.jpg);
+background-image:url('/assets/images/interviews.jpg')
