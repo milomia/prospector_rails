@@ -10,6 +10,7 @@
       <th>Stage</th>
       <th>Method</th>
       <th>Verdict</th>
+      <th>Contact</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -22,6 +23,7 @@
         <td><%= interview.stage %></td>
         <td><%= interview.method %></td>
         <td><%= interview.verdict %></td>
+        <td><%= interview.contact %></td>
         <td><%= link_to 'Show', interview %></td>
         <td><%= link_to 'Edit', edit_interview_path(interview) %></td>
         <td><%= link_to 'Destroy', interview, method: :delete, data: { confirm: 'Are you sure?' } %></td>
