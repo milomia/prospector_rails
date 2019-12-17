@@ -1,7 +1,7 @@
+require "test/unit"
 require 'test_helper'
-
+include Test::Unit::Assertions
 class InterviewTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+#  interview = Interview.new
+#  assert true
 end
